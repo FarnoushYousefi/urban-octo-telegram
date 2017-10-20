@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/goodlife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/goodlife" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goodlife"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="Address: 589 Fairway Rd S, Kitchener, ON N2C 1X3"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="Hours: open 24 hours"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/phones"
+        android:autoLink="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hours"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="Phone: (519) 576-7744"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:autoLink="web"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phones"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="website: https://www.goodlifefitness.com"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/yoga"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/web"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yoga" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/yoga"
+        android:fontFamily="sans-serif-light"
+        android:padding="43dp"
+        android:text="@string/header_text"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+ 
+
+</RelativeLayout>
+
