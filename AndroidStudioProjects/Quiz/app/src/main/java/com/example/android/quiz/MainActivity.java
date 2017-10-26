@@ -43,7 +43,17 @@ public class MainActivity extends AppCompatActivity {
 
         CheckBox checkboxThree = (CheckBox)findViewById(R.id.check_3);
         boolean ischeck_3 = checkboxThree.isChecked();
-        score= calculateScore_chechbox(ischeck_1,ischeck_2);
+
+        score= calculateScore_chechbox1(ischeck_1,ischeck_2);
+        CheckBox checkboxForth =(CheckBox) findViewById(R.id.check_4);
+        boolean ischeck_4 =checkboxOne.isChecked();
+
+        CheckBox checkboxFive = (CheckBox)findViewById(R.id.check_5);
+        boolean ischeck_5 = checkboxTwo.isChecked();
+
+        CheckBox checkboxSix = (CheckBox)findViewById(R.id.check_6);
+        boolean ischeck_6 = checkboxThree.isChecked();
+        score= calculateScore_chechbox2(ischeck_5,ischeck_6);
          display(score);
         //is the current radio button now checked?
         //rb.isChecked();
@@ -70,21 +80,31 @@ public class MainActivity extends AppCompatActivity {
     private int calculateScore(boolean RadioButtom1, boolean RadioButtom2, boolean RadioButtom3, boolean RadioButtom4) {
 
         if (RadioButtom1) {
+            score=0;
             score = score + 1;
         }
         return score;
 
     }
+
     private void display(int numbers) {
         TextView quantityTextView = (TextView) findViewById(R.id.score);
         quantityTextView.setText("" + numbers);
 
     }
 
-    private int calculateScore_chechbox(boolean checkone, boolean checktwo) {
-
+    private int calculateScore_chechbox1(boolean checkone, boolean checktwo) {
 
         if (checkone & checktwo) {
+            score = score + 1;
+        }
+
+        return score;
+
+    }
+    private int calculateScore_chechbox2(boolean checkFive, boolean checkSix) {
+
+        if (checkFive & checkSix) {
             score = score + 1;
         }
 
