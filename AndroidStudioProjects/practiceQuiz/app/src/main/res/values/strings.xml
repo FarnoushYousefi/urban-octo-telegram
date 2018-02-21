@@ -1,0 +1,13 @@
+
+
+    <resources>
+
+        <string name="app_name">practiceQuiz</string>
+
+        <string name="firstQuestion">What is 1 + 1 ?</string>
+        <string name="program">What programming language do we use to program Android Apps?</string>
+
+    </resources>
+
+
+

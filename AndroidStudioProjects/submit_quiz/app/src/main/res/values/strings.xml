@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">submit_quiz</string>
+    <string name="questtionOne">what is the quick book?</string>
+    <string name="answerOne">online accounting?</string>
+    <string name="answerTwo">game</string>
+    <string name="answerThree">painting sofwatre</string>
+    <string name="questtionTwo">"what are these elements are necesserly in sales department?"</string>
+    <string name="answerOne_questionTwo">  We site (24/7)</string>
+    <string name="answerOne_questionThree">  "Social media like Facebook, twitter, blogs")</string>
+    <string name="answerOne_questionFour">  launching new business</string>
+    <string name="questtionThree">" which one is Nonprofit organizations?"</string>
+    <string name="questionthree_answwerOne">None of them</string>
+    <string name="questionthree_answwerTwo">Are part of government</string>
+    <string name="questionthree_answwerThree">Are less important than for-profit organizations</string>
+    <string name="questtionFour">Describe some accounting tools?</string>
+    <string name="questionFive">what is the a value Blueprint</string>
+    <string name="questionFive_answer1">Includes complementor</string>
+    <string name="questionFive_answer2">None of them</string>
+    <string name="questionFive_answer3"> vertical relation</string>
+</resources>
