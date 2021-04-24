@@ -21,19 +21,3 @@ https://farnoushyousefi.github.io/urban-octo-telegram/
 13. change the Div class="content" to main
 14.  chang the div class="benefit-cost" to section class="benefit-cost"
 15. change div class="hero" to article class="hero"
-
-
-
-
-Code Refactor Starter Code
-
-
-link here
-
-
-
-asdsad
-
-## Direction on How to run the App
-
-## Image Example
